@@ -1,0 +1,74 @@
+
+body{
+  background:#f4f9ff;
+  font-family: 'Segoe UI', sans-serif;
+}
+/* Navbar */
+.navbar-brand img{
+  height: 60px;
+}
+
+.soft-nav{
+  background:white;
+}
+.navbar-brand{
+  color:#075fab !important;
+  font: size 200px;
+}
+
+/* Hero Section */
+.hero-img{
+  height: 90vh;
+  object-fit: cover;
+}
+
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto;
+}
+
+/* Feature Cards */
+.feature-box{
+  background:#f9fcfc;
+  border-radius:12px;
+  padding:25px;
+  transition:.3s;
+}
+.icon-1 { color: #1abc9c; }  /* Quality System */
+.icon-2 { color: #f39c12; }  /* Online Access */
+.icon-3 { color: #8e44ad; }  /* Smart Tools */
+.icon-4 { color: #e74c3c; }  /* Affordable */
+
+
+.feature-box:hover{
+  transform:translateY(-5px);
+  box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+/* Section Title */
+.sec-title{
+  color:#003f9e;
+  font-weight:700;
+}
+
+/* Buttons */
+.btn-soft{
+  background:#127894;
+  color:white;
+  border-sq:30px;
+ width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.btn-soft:hover{
+  background:#0056d6;
+  color:white;
+}
+
+/* Footer */
+.footer{
+  background:#0d1b38;
+  color:white;
+  padding:20px;
+}
